@@ -1,0 +1,172 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: inter, sans-serif;
+  color: white;
+  background-color: #202731;
+}
+
+img {
+  width: 25vw;
+  border-radius: 50px;
+  margin-left: 4rem;
+}
+
+.info h1 {
+  margin-left: 4rem;
+  font-size: 7rem;
+}
+
+.box h2 {
+  font-size: 4rem;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.box {
+  display: grid;
+  grid-template: repeat(2, 150px) / repeat(2, 480px);
+}
+
+.list {
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 2rem;
+  grid-column: 2;
+}
+
+h3 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-right: 80rem;
+  margin-bottom: 0;
+  margin-top: 20rem;
+}
+
+p {
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.GMAIL button {
+  font-size: 3rem;
+
+  color: white;
+  background-color: #202731;
+  border-radius: 10px;
+}
+
+.blue {
+  background: dodgerblue;
+}
+
+.red {
+  background: #7b31dd70;
+}
+
+.gray {
+  background: #c3263c;
+}
+
+.pink {
+  background: #ff00669c;
+}
+
+.dark {
+  background: #0f0f10;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wave1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 189px;
+}
+
+.wave1 .shape-fill {
+  fill: #202731;
+}
+
+.wave2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 189px;
+}
+
+.wave2 .shape-fill {
+  fill: #c3263c;
+}
+
+.wave3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave3 svg {
+  position: relative;
+  display: block;
+  width: calc(107% + 1.3px);
+  height: 161px;
+}
+
+.wave3 .shape-fill {
+  fill: #ff0066a8;
+}
+
+.wave4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave4 svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 171px;
+  transform: rotateY(180deg);
+}
+
+.wave4 .shape-fill {
+  fill: #0f0f10;
+}
