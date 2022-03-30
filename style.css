@@ -171,22 +171,62 @@ section {
   fill: #0f0f10;
 }
 
-button {
+.sau button {
   margin: 3rem;
   background: transparent;
   color: white;
   letter-spacing: 0;
   font-weight: bold;
   border: 1px solid rgb(255, 0, 68);
-  border-radius: 3px;
+  border-radius: 1rem;
   padding: 0.5rem 0.7rem 0.5rem 0.7rem;
   box-shadow: inset 0 0 0 0 rgb(255, 0, 68);
-  transition: ease-out 1s;
+  transition: ease-out 0.5s;
   outline: none;
 }
 
-button:hover {
+.sau button:hover {
   box-shadow: inset 300px 0 0 0 rgb(255, 0, 68);
   cursor: pointer;
   color: #000;
+}
+
+.ami button {
+  margin: 3rem;
+  background: transparent;
+  color: white;
+  letter-spacing: 0;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  box-shadow: inset 0 0 0 0 #000;
+  transition: ease-out 0.5s;
+  outline: none;
+}
+
+.ami button:hover {
+  box-shadow: inset 300px 0 0 0 #000;
+  cursor: pointer;
+  color: #c3263c;
+}
+
+.dat button {
+  margin: 3rem;
+  background: transparent;
+  color: white;
+  letter-spacing: 0;
+  font-weight: bold;
+  border: 1px solid rgb(2, 191, 248);
+  border-radius: 1rem;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  box-shadow: inset 0 0 0 0 rgb(2, 191, 248);
+  transition: ease-out 0.5s;
+  outline: none;
+}
+
+.dat button:hover {
+  box-shadow: inset 300px 0 0 0 rgb(2, 191, 248);
+  cursor: pointer;
+  color: #7b31dd70;
 }
